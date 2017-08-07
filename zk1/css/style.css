@@ -1,0 +1,174 @@
+body {
+  font-size: 0.14rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  background-color: #F3F3F3; }
+
+.header {
+  height: 0.44rem;
+  position: relative;
+  background-color: #ffffff; }
+  .header span:nth-child(1) {
+    position: absolute;
+    left: 37%;
+    text-align: center;
+    border-bottom: 2px solid #FC062E; }
+    .header span:nth-child(1) b {
+      display: inline-block;
+      padding: 0.1rem; }
+  .header span:nth-child(2) {
+    position: absolute;
+    right: 0.1rem;
+    top: 0.1rem; }
+    .header span:nth-child(2) a {
+      color: #959DAA;
+      font-size: 0.12rem; }
+
+.content {
+  -webkit-flex: 1;
+  position: relative;
+  overflow-y: scroll; }
+  .content .tit {
+    height: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0; }
+    .content .tit span {
+      width: 1rem;
+      padding: 0.1rem 0;
+      text-align: center;
+      border: 0.05px solid #ccc;
+      background-color: #ffffff;
+      font-size: 0.12rem; }
+      .content .tit span:nth-child(1) {
+        border-top-left-radius: 0.05rem;
+        border-bottom-left-radius: 0.05rem; }
+      .content .tit span:nth-child(3) {
+        border-top-right-radius: 0.05rem;
+        border-bottom-right-radius: 0.05rem; }
+    .content .tit span.active {
+      background-color: #FE4D4D;
+      color: #ffffff; }
+
+.cont-iscroll {
+  width: 100%;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  flex: 1; }
+
+.isc-tit {
+  padding: 0.1rem;
+  border-bottom: 0.5px solid #ccc;
+  display: flex;
+  align-items: center; }
+  .isc-tit span {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .isc-tit span:nth-child(4) {
+      border-left: 1px solid #cccccc; }
+    .isc-tit span:nth-child(1) {
+      border-right: 1px solid #cccccc; }
+
+.isc-box {
+  border-bottom: 1px solid #cccccc;
+  box-sizing: border-box;
+  position: relative; }
+  .isc-box em {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 0.4rem; }
+    .isc-box em img {
+      height: 100%; }
+  .isc-box p {
+    padding: 0.1rem 0 0.1rem 0.3rem; }
+    .isc-box p i {
+      color: #ccc; }
+    .isc-box p b {
+      font-weight: normal; }
+    .isc-box p span {
+      position: absolute;
+      right: 0.15rem;
+      border: 1px solid #7FDD81;
+      border-radius: 0.2rem;
+      color: #7FDD81;
+      font-size: 0.1rem;
+      padding: 0.02rem 0.06rem; }
+  .isc-box h1 {
+    font-size: 0.14rem;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    padding: 0 0.15rem; }
+    .isc-box h1 span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 0.1rem 0; }
+      .isc-box h1 span:nth-child(1) {
+        border-right: 1px solid #eeeeee;
+        position: relative;
+        flex: 1.5; }
+        .isc-box h1 span:nth-child(1) i {
+          position: absolute;
+          right: 0.15rem;
+          top: 0.09rem;
+          font-size: 0.12rem; }
+      .isc-box h1 span:nth-child(4) {
+        position: relative;
+        flex: 1.5; }
+        .isc-box h1 span:nth-child(4) i {
+          position: absolute;
+          right: 0;
+          top: 0.05rem;
+          color: #cccccc; }
+        .isc-box h1 span:nth-child(4) img {
+          height: 0.1rem; }
+      .isc-box h1 span:nth-child(2), .isc-box h1 span:nth-child(3) {
+        padding: 0 0.04rem;
+        flex: 1;
+        border-right: 1px solid #eeeeee; }
+      .isc-box h1 span b {
+        padding-bottom: 0.15rem;
+        font-size: 0.12rem;
+        color: #000; }
+      .isc-box h1 span a {
+        font-size: 0.1rem;
+        color: #9E9E9E; }
+
+.footer {
+  height: 0.5rem;
+  border-top: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff; }
+  .footer span {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .footer span i {
+      font-size: 0.2rem; }
+    .footer span b {
+      font-size: 0.12rem;
+      padding: 0.03rem; }
+
+.fot-active i {
+  color: #FA3D3D; }
+.fot-active b {
+  color: #FA3D3D; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,178 @@
+body
+  font-size: .14rem
+  position: absolute
+  top: 0
+  bottom: 0
+  width: 100%
+  display: -webkit-flex
+  -webkit-flex-direction: column
+  background-color: #F3F3F3
+
+.header
+  height: .44rem
+  position: relative
+  background-color: #ffffff
+  span:nth-child(1)
+    position: absolute
+    left: 37%
+    text-align: center
+    border-bottom: 2px solid #FC062E
+    b
+      display: inline-block
+      padding: .1rem
+  span:nth-child(2)
+    position: absolute
+    right: .1rem
+    top: .1rem
+    a
+      color: #959DAA
+      font-size: .12rem
+
+.content
+  -webkit-flex: 1
+  position: relative
+  overflow-y: scroll
+  .tit
+    height: .5rem
+    display: flex
+    align-items: center
+    justify-content: center
+    position: absolute
+    left: 0
+    top: 0
+    span
+      width: 1rem
+      padding: .1rem 0
+      text-align: center
+      border: 0.05px solid #ccc
+      background-color: #ffffff
+      font-size: .12rem
+      &:nth-child(1)
+        border-top-left-radius: 0.05rem
+        border-bottom-left-radius: 0.05rem
+      &:nth-child(3)
+        border-top-right-radius: 0.05rem
+        border-bottom-right-radius: 0.05rem
+    span.active
+      background-color: #FE4D4D
+      color: #ffffff
+.cont-iscroll
+  width: 100%
+  background-color: #ffffff
+  position: absolute
+  left: 0
+  top: .5rem
+  flex: 1
+.isc-tit
+  padding: .1rem
+  border-bottom: 0.5px solid #ccc
+  display: flex
+  align-items: center
+  span
+    flex: 1
+    display: flex
+    align-items: center
+    justify-content: center
+    &:nth-child(4)
+      border-left: 1px solid #cccccc
+    &:nth-child(1)
+      border-right: 1px solid #cccccc
+.isc-box
+  border-bottom: 1px solid #cccccc
+  box-sizing: border-box
+  position: relative
+  em
+    position: absolute
+    left: 0
+    top: 0
+    height: .4rem
+    img
+      height: 100%
+  p
+    padding: .1rem 0 .1rem .3rem
+    i
+      color: #ccc
+    b
+      font-weight: normal
+    span
+      position: absolute
+      right: .15rem
+      border: 1px solid #7FDD81
+      border-radius: .2rem
+      color: #7FDD81
+      font-size: .1rem
+      padding: 0.02rem 0.06rem
+  h1
+    font-size: .14rem
+    font-weight: normal
+    display: flex
+    align-items: center
+    padding: 0 .15rem
+    span
+      display: flex
+      align-items: center
+      justify-content: center
+      flex-direction: column
+      padding: .1rem 0
+      &:nth-child(1)
+        border-right: 1px solid #eeeeee
+        position: relative
+        flex: 1.5
+        i
+          position: absolute
+          right: 0.15rem
+          top: 0.09rem
+          font-size: .12rem
+      &:nth-child(4)
+        position: relative
+        flex: 1.5
+        i
+          position: absolute
+          right: 0
+          top: 0.05rem
+          color: #cccccc
+        img
+          height: .1rem
+      &:nth-child(2),
+      &:nth-child(3)
+        padding: 0 .04rem
+        flex: 1
+        border-right: 1px solid #eeeeee
+      b
+        padding-bottom: .15rem
+        font-size: .12rem
+        color: #000
+      a
+        font-size: .1rem
+        color: #9E9E9E
+
+
+
+
+
+
+
+
+
+.footer
+  height: .5rem
+  border-top: 1px solid #ccc
+  display: flex
+  align-items: center
+  background-color: #ffffff
+  span
+    flex: 1
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    i
+      font-size: .2rem
+    b
+      font-size: .12rem
+      padding: 0.03rem
+.fot-active
+  i
+    color: #FA3D3D
+  b
+    color: #FA3D3D
